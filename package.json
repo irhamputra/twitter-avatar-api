@@ -1,7 +1,7 @@
 {
   "name": "express-generator-ts",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "/dist/index.js",
   "author": "Muhamad Irham Prasetyo",
   "license": "MIT",
   "scripts": {
@@ -28,5 +28,8 @@
   "prettier": {
     "trailingComma": "es5",
     "singleQuote": true
-  }
+  },
+  "licenses": [
+    "MIT"
+  ]
 }

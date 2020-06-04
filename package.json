@@ -1,0 +1,32 @@
+{
+  "name": "express-generator-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Muhamad Irham Prasetyo",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p .",
+    "dev": "ts-node-dev --no-notify --respawn --transpileOnly src/index.ts"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.18",
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.6",
+    "@types/isomorphic-fetch": "^0.0.35",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.3"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "singleQuote": true
+  }
+}
